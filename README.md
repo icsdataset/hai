@@ -66,7 +66,7 @@ It is strongly recommended to use the [TaPR (Time-series Aware Precision and Rec
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:hkshin721@nsr.re.kr)
 
 ## Changes
-* 2020-02-07 - Initial release 
+* Initial release (2020-02-07) 
 
 ## Authors
 This repository created in 2020 by Hyeok-Ki Shin, Woomyo Lee and Jeong-Han Yun.
