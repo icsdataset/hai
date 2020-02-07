@@ -22,16 +22,16 @@ This dataset was developed for research on anomaly detection in industrial contr
 The testbed consists of four different processes: boiler, turbine, water-treatement and HIL simulation:
 
 #### P1: Boiler Process
-A water-to-water heat trasfer process with low pressurees and moderate temperature, controlled by Emerson's Ovatio DCS
+A water-to-water heat-trasfer process with low pressure and moderate temperature. It is controlled by Emerson's Ovation DCS.
 
 #### P2: Turbine Process
-A rotor kit testbed that closely simulates actual rotating machine behavior, controlled by GE;s Mark VIe DCS
+A rotor kit process that closely simulates the behavior of an actual rotating machine. It is controlled by GE's Mark VIe DCS.
 
 #### P3: Water-treatment Process
-A water feed process that includes a pump to feed water to the upper reservoir and a level control valve to release back into the lower reservoir, controlled by Siemens S7-300 PLC
+A water-treatment process that includes the pumping of water to the upper reservoir and releasing it back into the lower reservoir. It is controlled by Siemens's S7-300 PLC.
 
 #### P4: HIL Simulation
-Both of the obiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACe(R) SCALEXIO for HIL device is interconnected with the real-world processes via Simens S7-1500 PCL and ET200 remote IO device for data-acquisition system based on OPC gateway.
+Both of the boiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACE HIL simulator is interconnected with the real-world processes through a Siemens S7-1500 PLC and ET200 remote IO devices for data-acquisition system based on OPC gateway.
 
 ## Dataset
 The dataset was collected 57 points every seconde from a real-world ICS testbed enhanced with a HIL (Hardware-In-the-Loop) simulator. The normal situation's dataset was about 7 days. The attack dataset was collected with 34 attack scenarios on 6 Process Control Loops (PCLs). that are distributed and operated on 3 controllers (GE MarkVIe DCS, Emerson Ovation DCS and Siemens S7-1500). The attack dataset consists of one day's worth od data with 20 attacks scenarios on each control loop and two days's worht of data with 14 attacks on multiple control loops. 
