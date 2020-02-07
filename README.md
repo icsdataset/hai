@@ -6,18 +6,18 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa
 "> Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)</a>.
 
 ## Content
-- [Background](#background)
+- [HAI Testbed](#hai-testbed)
 - [Dataset](#dataset)
-- [Getting the dataset](#getting-the-dataset)
+- [Getting the Dataset](#getting-the-dataset)
 - [Evaluation](#evaluation)
-- [Projects using the dataset](#projects-using-the-dataset)
+- [Projects using the Dataset](#projects-using-the-dataset)
 - [Changes](#changes)
 - [Authors](#Authors)
 - [References](#references)
 
 
 
-## HAI testbed
+## HAI Testbed
 This dataset was developed for research on anomyaly detection in industrial control system (ICS) such as railways, water treatment and power plants. In 2017, we initially lanuched three lab-scale ICS testbed and then built a complex process system combining them with a Hardware-In-the-Lopp (HIL) simulator that emulates thermal power gneration and pumped-storage hudropy generation in 2018. This system integration makes their variables are highly coupled and correlated, which is for the richer dataset. So we named our testbed "HIL-based Augmented ICS". 
 The testbed consists of 4 different processes: boiler, turbine, water-treatement and HIL simulation:
 * Boiler process: a water-to-water heat trasfer process with low pressurees and moderate temperature, controlled by Emerson's Ovatio DCS
