@@ -21,11 +21,14 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa
 This dataset was developed for research on anomyaly detection in industrial control system (ICS) such as railways, water treatment and power plants. In 2017, we initially lanuched three lab-scale ICS testbed and then built a complex process system combining them with a Hardware-In-the-Lopp (HIL) simulator that emulates thermal power gneration and pumped-storage hudropy generation in 2018. This system integration makes their variables are highly coupled and correlated, which is for the richer dataset. So we named our testbed "HIL-based Augmented ICS". 
 The testbed consists of 4 different processes: boiler, turbine, water-treatement and HIL simulation:
 #### P1: Boiler process
-a water-to-water heat trasfer process with low pressurees and moderate temperature, controlled by Emerson's Ovatio DCS
+A water-to-water heat trasfer process with low pressurees and moderate temperature, controlled by Emerson's Ovatio DCS
+
 #### P2: Turbine process
-a rotor kit testbed that closely simulates actual rotating machine behavior, controlled by GE;s Mark VIe DCS
+A rotor kit testbed that closely simulates actual rotating machine behavior, controlled by GE;s Mark VIe DCS
 #### P3: Water-treatment process
-a water feed process that includes a pump to feed water to the upper reservoir and a level control valve to release back into the lower reservoir, controlled by Siemens S7-300 PLC
+
+A water feed process that includes a pump to feed water to the upper reservoir and a level control valve to release back into the lower reservoir, controlled by Siemens S7-300 PLC
+
 #### P4: HIL simulation
 Both of the obiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACe(R) SCALEXIO for HIL device is interconnected with the real-world processes via Simens S7-1500 PCL and ET200 remote IO device for data-acquisition system based on OPC gateway.
 
