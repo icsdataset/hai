@@ -16,7 +16,6 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa
 - [References](#references)
 
 
-
 ## HAI Testbed
 This dataset was developed for research on anomaly detection in industrial control systems (ICSs) such as railways, water-treatment, and power plants. In 2017, we initially lanuched three laboratory scale ICS testbeds. In 2018, we built a complex process system that combined the three systems with a Hardware-In-the-Lopp (HIL) simulator that emulates thermal power gneration and pumped-storage hydropower generation, thus ensuring that their variables are highly coupled and correlated for the richer dataset. So we named our testbed "HIL-based Augmented ICS". 
 The testbed consists of four different processes: boiler, turbine, water-treatement and HIL simulation:
@@ -67,7 +66,7 @@ It is strongly recommended to use the [TaPR (Time-series Aware Precision and Rec
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:hkshin721@nsr.re.kr)
 
 ## Changes
-* initial release (7 Feb., 2020)
+* 2020-02-07 - Initial release 
 
 ## Authors
 This repository created in 2020 by Hyeok-Ki Shin, Woomyo Lee and Jeong-Han Yun.
