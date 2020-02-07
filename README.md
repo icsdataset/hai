@@ -128,7 +128,7 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
           </tr>
           <tr>
             <td>name</td>
-            <td><code itemprop="name"> ICSDataset </code></td>
+            <td><code itemprop="name">The Affiliated Institute of ETRI </code></td>
           </tr>
           <tr>
             <td>sameAs</td>
