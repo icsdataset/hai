@@ -53,7 +53,7 @@ The dataset will be released in __Februray 2020.__
 > #git
 
 ## Evaluation
-It is strongly recommended to use the [TaPR (Time-series Aware Precision and Recall)][3] method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other sutides. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr)
+It is strongly recommended to use the [TaPR (Time-series Aware Precision and Recall)](https://github.com/saurf4ng/TaPR) method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other sutides. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr)
 
 ## Projects using the dataset
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:hkshin721@nsr.re.kr)
@@ -67,11 +67,11 @@ This repository created in 2020 by Hyeok-Ki Shin, Woomyo Lee and Jeong-Han Yun.
 ## References
 1. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[Implementation of Programmable CPS Testbed for Anomaly Detection][1]", 12th USENIX Workshop on Cyber Security Experimentation and Test (CSET 19), Santa Clara, CA, 2019.
 2. Hwang, Won-Seok and Yun, Jeong-Han and Kim, Jonguk and Kim, HyoungChun Kim, "[Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling][2]", CIKM '19:Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pp.2241-2244, 2019.
+3. Seungoh Choi, Jeing-Han Yun, Sin-Kyu Kim, "[A Comparison of ICS Datasets for Security Research Based on Attack Paths][3]", In: Luiijf E., Žutautaitė I., Hämmerli B. (eds) Critical Information Infrastructures Security. CRITIS 2018. Lecture Notes in Computer Science, vol 11260. Springer, Cham.
 
-[3]: https://github.com/saurf4ng/TaPR "TaPR Github"
 [1]: https://www.usenix.org/conference/cset19/presentation/shin "Testbed paper"
 [2]: https://dl.acm.org/doi/10.1145/3357384.3358118 "TaPR paper"
-
+[3]: https://link.springer.com/chapter/10.1007/978-3-030-05849-4_12 "ICS Datasets"
 
 
 ## Dataset Metadata
