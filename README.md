@@ -20,18 +20,19 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa
 ## HAI Testbed
 This dataset was developed for research on anomyaly detection in industrial control system (ICS) such as railways, water treatment and power plants. In 2017, we initially lanuched three lab-scale ICS testbed and then built a complex process system combining them with a Hardware-In-the-Lopp (HIL) simulator that emulates thermal power gneration and pumped-storage hudropy generation in 2018. This system integration makes their variables are highly coupled and correlated, which is for the richer dataset. So we named our testbed "HIL-based Augmented ICS". 
 The testbed consists of 4 different processes: boiler, turbine, water-treatement and HIL simulation:
-* Boiler process: a water-to-water heat trasfer process with low pressurees and moderate temperature, controlled by Emerson's Ovatio DCS
-* Turbine process: a rotor kit testbed that closely simulates actual rotating machine behavior, controlled by GE;s Mark VIe DCS
-* Water-treatment process: a water feed process that includes a pump to feed water to the upper reservoir and a level control valve to release back into the lower reservoir, controlled by Siemens S7-300 PLC
-* HIL simulation: Both of the obiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACe(R) SCALEXIO for HIL device is interconnected with the real-world processes via Simens S7-1500 PCL and ET200 remote IO device for data-acquisition system based on OPC gateway.
+#### P1: Boiler process
+a water-to-water heat trasfer process with low pressurees and moderate temperature, controlled by Emerson's Ovatio DCS
+#### P2: Turbine process
+a rotor kit testbed that closely simulates actual rotating machine behavior, controlled by GE;s Mark VIe DCS
+#### P3: Water-treatment process
+a water feed process that includes a pump to feed water to the upper reservoir and a level control valve to release back into the lower reservoir, controlled by Siemens S7-300 PLC
+#### P4: HIL simulation
+Both of the obiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACe(R) SCALEXIO for HIL device is interconnected with the real-world processes via Simens S7-1500 PCL and ET200 remote IO device for data-acquisition system based on OPC gateway.
 
 ## Dataset
 The dataset was collected 57 points every seconde from a real-world ICS testbed enhanced with a HIL (Hardware-In-the-Loop) simulator. The normal situation's dataset was about 7 days. The attack dataset was collected with 34 attack scenarios on 6 Process Control Loops (PCLs). that are distributed and operated on 3 controllers (GE MarkVIe DCS, Emerson Ovation DCS and Siemens S7-1500). The attack dataset consists of one day's worth od data with 20 attacks scenarios on each control loop and two days's worht of data with 14 attacks on multiple control loops. 
 
 _Note: A PCL is a system made up of all control logics needed for the measurements and adjustment of a variable that controls and individual process_
-
-#### Data Files
-The data is preseneted into 4 CSV files seperatly for two normal datasets and two attack datasets. 
 
 #### Data Fields 
 Refer to Dataset Technical Manual for the details of the below columns.
@@ -44,6 +45,10 @@ Refer to Dataset Technical Manual for the details of the below columns.
 |20190926 13:00:03+09:00| 0            | 0       | ...   |  0       |  1     |   0       |    ...      | 0   |
 |20190926 13:00:04+09:00| 0            | 0       | ...   |  0       |  1     |   0       |    ...      | 0   |
 | ``` #column01 ```        | ``` #column02 ``` | ``` #column3 ```| ...  | ``` #column57 ``` | ``` #column58 ```| ``` #column59 ``` | ... |``` #column62 ```|
+
+
+#### Data Files
+The data is preseneted into 4 CSV files seperatly for two normal datasets and two attack datasets. 
 
 
 
