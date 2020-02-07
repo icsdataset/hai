@@ -55,9 +55,8 @@ Refer to Dataset Technical Manual for the details of the below columns.
 The data is preseneted into 4 CSV files seperatly for two normal datasets and two attack datasets. 
 
 
-
 ## Getting the dataset
-The dataset will be released in __Februray 2020.__  
+Type ```git clone```, and the paste the below URL. 
 ```
 $ git clone https://github.com/icsdataset/hai
 ```
@@ -68,7 +67,7 @@ It is strongly recommended to use the [TaPR (Time-series Aware Precision and Rec
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:hkshin721@nsr.re.kr)
 
 ## Changes
-* Now - preparing for initial release
+* initial release (7 Feb., 2020)
 
 ## Authors
 This repository created in 2020 by Hyeok-Ki Shin, Woomyo Lee and Jeong-Han Yun.
