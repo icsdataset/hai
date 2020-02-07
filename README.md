@@ -60,6 +60,10 @@ Type ```git clone```, and the paste the below URL.
 ```
 $ git clone https://github.com/icsdataset/hai
 ```
+To unzip multiple gzip files, you can use:
+```
+$ gunzip *.gz
+```
 ## Evaluation
 It is strongly recommended to use the [TaPR (Time-series Aware Precision and Recall)](https://github.com/saurf4ng/TaPR) method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other sutides. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr)
 
