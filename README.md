@@ -42,11 +42,11 @@ Refer to Dataset Technical Manual for the details of the below columns.
 
 | time                  |P1.B2004        | P2.B2016| ...  | P4.HT_LD  | attack   | attack.P1   |    ...          | attack.P4 |
 |:---:                  | :---:           |  :---:  |  :---: |  :---:  |  :---:   |   :---:     |  :---:         | :---:   |
-|20190926 13:00:00+09:00| 0              | 0       | ...   |  0       |  1     |   0       |    ...      | 0   |
-|20190926 13:00:01+09:00| 0             | 0       | ...   |  0       |  1     |   0       |    ...      | 0   |
-|20190926 13:00:02+09:00| 0            | 0       | ...   |  0       |  1     |   0       |    ...      | 0   |
-|20190926 13:00:03+09:00| 0            | 0       | ...   |  0       |  1     |   0       |    ...      | 0   |
-|20190926 13:00:04+09:00| 0            | 0       | ...   |  0       |  1     |   0       |    ...      | 0   |
+|20190926 13:00:00+09:00| 0.09830         |1.07370       | ...   |  0       |  1     |   0       |    ...      | 0   |
+|20190926 13:00:01+09:00| 0.09830        | 1.07410      | ...   |  0       |  1     |   0       |    ...      | 1  |
+|20190926 13:00:02+09:00| 0.09830        | 1.07380        | ...   |  0       |  1     |   0       |    ...      | 1   |
+|20190926 13:00:03+09:00| 0.09830        | 1.07360       | ...   |  0       |  1     |   1       |    ...      | 1   |
+|20190926 13:00:04+09:00| 0.09830         | 1.07430        | ...   |  0       |  1     |  1      |    ...      | 1 |
 | ``` #column01 ```        | ``` #column02 ``` | ``` #column3 ```| ...  | ``` #column57 ``` | ``` #column58 ```| ``` #column59 ``` | ... |``` #column62 ```|
 
 
@@ -58,7 +58,7 @@ The data is preseneted into 4 CSV files seperatly for two normal datasets and tw
 ## Getting the dataset
 The dataset will be released in __Februray 2020.__  
 
-> #git
+> $ git clone git://github.com/icsdataset/hai.git
 
 ## Evaluation
 It is strongly recommended to use the [TaPR (Time-series Aware Precision and Recall)](https://github.com/saurf4ng/TaPR) method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other sutides. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr)
