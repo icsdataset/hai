@@ -69,7 +69,7 @@ Here are some projects and experiments that are using or featuring the dataset i
 * Initial release (2020-02-07) 
 
 ## Authorsa
-This repository created in 2020 by Hyeok-Ki Shin, Woomyo Lee and Jeong-Han Yun in the Affiliated Institute of ETRI.
+This repository created in 2020 by Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun and HyoungChun Kim in the Affiliated Institute of ETRI.
 
 ## References
 1. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[Implementation of Programmable CPS Testbed for Anomaly Detection][1]", 12th USENIX Workshop on Cyber Security Experimentation and Test (CSET 19), Santa Clara, CA, 2019.
