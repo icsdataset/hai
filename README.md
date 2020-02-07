@@ -35,7 +35,7 @@ Both of the boiler and turbine processes are interconnected to reamin sychronous
 ## Dataset
 The dataset was built by collecting 59 data points every seconde from a real-world ICS testbed enhanced with a HIL simulator. The dataset for the normal situation was collected for almost 7 days. The attack dataset was collected with 34 attack scenarios on the six Process Control Loops (PCLs). The PCLs are distributed and operated on 3 controllers (GE MarkVIe DCS, Emerson Ovation DCS and Siemens S7-1500). The attack dataset consists of one day's worth od data with 20 attacks scenarios on each control loop and two days's worht of data with 14 attacks on multiple control loops. 
 
-_Note: A PCL is a system made up of all control logics needed for the measurements and adjustment of a variable that controls and individual process_
+_Note: A PCL is a system made up of all control logics needed for the measurements and adjustment of a variable that controls and individual process._
 
 #### Data Fields 
 Refer to Dataset Technical Manual for the details of the below columns.
@@ -53,7 +53,7 @@ Refer to Dataset Technical Manual for the details of the below columns.
 #### Data Files
 The data is preseneted into 4 CSV files seperatly for two normal datasets and two attack datasets. 
 
-_Please note that all data files are compressed by the standard GNU zip (gzip) due to a strict maximum size limit of 100 MB for individual files in a repository.
+_Please note that all data files are compressed by the standard GNU zip (gzip) due to a strict maximum size limit of 100 MB for individual files in a repository._
 
 ## Getting the dataset
 Type ```git clone```, and the paste the below URL. 
