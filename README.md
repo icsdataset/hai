@@ -31,10 +31,10 @@ A rotor kit process that closely simulates the behavior of an actual rotating ma
 A water-treatment process that includes the pumping of water to the upper reservoir and releasing it back into the lower reservoir. It is controlled by Siemens's S7-300 PLC.
 
 #### P4: HIL Simulation
-Both of the boiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACE HIL simulator is interconnected with the real-world processes through a Siemens S7-1500 PLC and ET200 remote IO devices for data-acquisition system based on OPC gateway.
+Both of the boiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACE's SCALEXIO system is used for HIL simulations and is interconnected with the real-world processes through a Siemens S7-1500 PLC and ET200 remote IO devices for data-acquisition system based on OPC gateway.
 
 ## Dataset
-The dataset was collected 57 points every seconde from a real-world ICS testbed enhanced with a HIL (Hardware-In-the-Loop) simulator. The normal situation's dataset was about 7 days. The attack dataset was collected with 34 attack scenarios on 6 Process Control Loops (PCLs). that are distributed and operated on 3 controllers (GE MarkVIe DCS, Emerson Ovation DCS and Siemens S7-1500). The attack dataset consists of one day's worth od data with 20 attacks scenarios on each control loop and two days's worht of data with 14 attacks on multiple control loops. 
+The dataset was built by collecting 59 data points every seconde from a real-world ICS testbed enhanced with a HIL simulator. The dataset for the normal situation was collected for almost 7 days. The attack dataset was collected with 34 attack scenarios on the six Process Control Loops (PCLs). The PCLs are distributed and operated on 3 controllers (GE MarkVIe DCS, Emerson Ovation DCS and Siemens S7-1500). The attack dataset consists of one day's worth od data with 20 attacks scenarios on each control loop and two days's worht of data with 14 attacks on multiple control loops. 
 
 _Note: A PCL is a system made up of all control logics needed for the measurements and adjustment of a variable that controls and individual process_
 
