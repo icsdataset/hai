@@ -59,7 +59,7 @@ The data is preseneted into 4 CSV files seperatly for two normal datasets and tw
 ## Getting the dataset
 The dataset will be released in __Februray 2020.__  
 ```
-> $ git clone git://github.com/icsdataset/hai
+$ git clone https://github.com/icsdataset/hai
 ```
 ## Evaluation
 It is strongly recommended to use the [TaPR (Time-series Aware Precision and Recall)](https://github.com/saurf4ng/TaPR) method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other sutides. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr)
