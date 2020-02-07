@@ -117,7 +117,7 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
   </tr>
   <tr>
     <td>description</td>
-    <td><code itemprop="description">The HAI security dataset was collected from a realistic industiral control syste (ICS) testbed augmented with a Hardware-In-the-Loop (HIL) simulator that emulates steam-turbine power generation and pumped-storage hydropower generation. 
+    <td><code itemprop="description">The HAI security dataset was collected from a realistic Industiral Control System (ICS) testbed augmented with a Hardware-In-the-Loop (HIL) simulator that emulates steam-turbine power generation and pumped-storage hydropower generation. 
  </code></td>
   </tr>
   <tr>
