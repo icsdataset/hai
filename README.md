@@ -69,7 +69,7 @@ $ gunzip *.gz
 It is strongly recommended to use the [TaPR (Time-series Aware Precision and Recall)](https://github.com/saurf4ng/TaPR) method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other sutides. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr)
 
 ## Projects using the dataset
-Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:hkshin721@nsr.re.kr)
+Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:hkshin721@nsr.re.kr, wmlee@nsr.re.kr)
 
 ## Changes
 * Initial release (2020-02-07) 
