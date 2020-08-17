@@ -19,7 +19,7 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa
 
 
 ## HAI Testbed
-This dataset was developed for research on anomaly detection in industrial control systems (ICSs) such as railways, water-treatment, and power plants. In 2017, we initially lanuched three laboratory scale ICS testbeds. In 2018, we built a complex process system that combined the three systems with a Hardware-In-the-Lopp (HIL) simulator that emulates thermal power gneration and pumped-storage hydropower generation, thus ensuring that their variables are highly coupled and correlated for the richer dataset. So we named our testbed "HIL-based Augmented ICS". 
+This dataset was developed for research on anomaly detection in industrial control systems (ICSs) such as railways, water-treatment, and power plants. In 2017, we initially lanuched three laboratory scale ICS testbeds. In 2018, we built a complex process system that combined the three systems with a Hardware-In-the-Lopp (HIL) simulator that emulates thermal power generation and pumped-storage hydropower generation, thus ensuring that their variables are highly coupled and correlated for the richer dataset. So we named our testbed "HIL-based Augmented ICS". 
 The testbed consists of four different processes: boiler, turbine, water-treatement and HIL simulation:
 
 #### P1: Boiler Process
