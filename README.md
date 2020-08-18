@@ -19,7 +19,7 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa
 
 
 ## HAI Testbed
-This dataset was developed for research on anomaly detection in industrial control systems (ICSs) such as railways, water-treatment, and power plants. In 2017, we initially lanuched three laboratory scale ICS testbeds. In 2018, we built a complex process system that combined the three systems with a Hardware-In-the-Lopp (HIL) simulator that emulates thermal power gneration and pumped-storage hydropower generation, thus ensuring that their variables are highly coupled and correlated for the richer dataset. So we named our testbed "HIL-based Augmented ICS". 
+This dataset was developed for research on anomaly detection in industrial control systems (ICSs) such as railways, water-treatment, and power plants. In 2017, we initially lanuched three laboratory scale ICS testbeds. In 2018, we built a complex process system that combined the three systems with a Hardware-In-the-Loop (HIL) simulator that emulates thermal power generation and pumped-storage hydropower generation, thus ensuring that their variables are highly coupled and correlated for the richer dataset. So we named our testbed "HIL-based Augmented ICS". 
 The testbed consists of four different processes: boiler, turbine, water-treatement and HIL simulation:
 
 #### P1: Boiler Process
@@ -80,11 +80,11 @@ Here are some projects and experiments that are using or featuring the dataset i
 Created by Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun and HyoungChun Kim in the Affiliated Institute of ETRI, Daejeon, South Korea.
 
 ## References
-1. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[Implementation of Programmable CPS Testbed for Anomaly Detection][1]", 12th USENIX Workshop on Cyber Security Experimentation and Test (CSET 19), Santa Clara, CA, 2019.
+1. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[HAI 1.0: HIL-based Augmented ICS Security Dataset][1]", 13th USENIX Workshop on Cyber Security Experimentation and Test (CSET 20), Santa Clara, CA, 2020.
 2. Hwang, Won-Seok and Yun, Jeong-Han and Kim, Jonguk and Kim, HyoungChun Kim, "[Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling][2]", CIKM '19:Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pp.2241-2244, 2019.
 3. Seungoh Choi, Jeong-Han Yun, Sin-Kyu Kim, "[A Comparison of ICS Datasets for Security Research Based on Attack Paths][3]", In: Luiijf E., Žutautaitė I., Hämmerli B. (eds) Critical Information Infrastructures Security. CRITIS 2018. Lecture Notes in Computer Science, vol 11260. Springer, Cham.
 
-[1]: https://www.usenix.org/conference/cset19/presentation/shin "Testbed paper"
+[1]: https://www.usenix.org/conference/cset20/presentation/shin "Dataset paper"
 [2]: https://dl.acm.org/doi/10.1145/3357384.3358118 "TaPR paper"
 [3]: https://link.springer.com/chapter/10.1007/978-3-030-05849-4_12 "ICS Datasets"
 
