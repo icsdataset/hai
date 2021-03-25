@@ -8,7 +8,7 @@ Click  [here](https://github.com/icsdataset/hai/blob/master/dataset_technical_de
 ## Contents
 - [Background](#background)
 - [HAI Testbed](#hai-testbed)
-- [Dataset](#dataset)
+- [HAI Dataset](#dataset)
 - [Getting the Dataset](#getting-the-dataset)
 - [Evaluation](#evaluation)
 - [Projects using the Dataset](#projects-using-the-dataset)
