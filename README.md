@@ -1,4 +1,5 @@
 
+> **NOTICE**: We are preparing to release a new dataset. The work will be done in a few days.
 
 # HIL-based Augmented ICS (HAI) Security Dataset
 The HAI dataset was collected from a realistic industiral control system (ICS) testbed augmented with a Hardware-In-the-Loop (HIL) simulator that emulates steam-turbine power generation and pumped-storage hydropower generation. 
