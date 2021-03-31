@@ -7,9 +7,9 @@ Click  [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technica
 ## Contents
 - [Background](#background)
 - [HAI Testbed](#hai-testbed)
-- [HAI Dataset](#dataset)
+- [HAI Dataset](#hai-dataset)
 - [Getting the Dataset](#getting-the-dataset)
-- [Evaluation](#evaluation)
+- [Performance Evaluation](#performance-evaluation)
 - [Projects using the Dataset](#projects-using-the-dataset)
 - [Change Log](#change-log)
 - [Authors](#Authors)
@@ -36,7 +36,7 @@ The testbed consists of four different processes: boiler, turbine, water-treatem
 - **HIL Simulation(P4):** Both of the boiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACE's SCALEXIO system is used for HIL simulations and is interconnected with the real-world processes through a Siemens S7-1500 PLC and ET200 remote IO devices for data-acquisition system based on OPC gateway.
 
 
-## HAI Datasets
+## HAI Dataset
 Two major versions of HAI datasets have been released thus far. Each dataset consists of several CSV files, and each file satisfies time continuity. The quantitative summary of each version are as follows:
 > **Note:** The **version numbering** follows a **date-based scheme**, where the version number indicates the released date of HAI dataset.  HAI 20.07 is the bug-fixed one of the first version HAI v1.0 released in February 2020.
 <table align=center>
