@@ -158,7 +158,11 @@ It is strongly recommended to use the [TaPR (Time-series Aware Precision and Rec
 
 ## Projects using the dataset
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-HAI]%20)
-
+        
+### HAICon (Online AI Competition for ICS Threat Detection)
+ * HAICon 2020 : https://dacon.io/competitions/official/235624/overview/description
+ * HAICon 2021 : https://dacon.io/en/competitions/official/235757/overview/description
+        
 ## Change Log
 Please refer to the technical manual for the detailed changes 
  * HAI 21.03 release (2021-03-25)
