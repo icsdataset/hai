@@ -3,7 +3,7 @@
 # HAI (HIL-based Augmented ICS) Security Dataset
 The HAI dataset was collected from a realistic industiral control system (ICS) testbed augmented with a Hardware-In-the-Loop (HIL) simulator that emulates steam-turbine power generation and pumped-storage hydropower generation. 
 
-Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical_details_v2.0.pdf) to find out more about the HAI dataset.
+Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical_details_v3.0.pdf) to find out more about the HAI dataset.
 > Please e-mail us [here](mailto:hkshin721@nsr.re.kr?subject=[GitHub-HAI]%20) if you have any questions about the dataset.
 
 ## Contents
@@ -226,8 +226,6 @@ The time-series data in each CSV file satisfies time continuity. The first colum
 </div>
 
 ## Getting the dataset
->  **NOTICE:** All data files are compressed using standard GNU zip (gzip) owing to the strict size limit of 100 MB for individual files in a repository.
-
 Type ```git clone```, and the paste the below URL. 
 ```
 $ git clone https://github.com/icsdataset/hai
@@ -240,7 +238,7 @@ $ gunzip *.gz
 Use of [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) metric is strongly recommended to evaluate your anomaly detection model, which provides fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
 
 ## Projects using the dataset
-Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-HAI]%20)
+Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-Share]%20)
 
 The related projects so far are as follows.
 ### Anomaly Detection 
