@@ -300,8 +300,8 @@ The related projects so far are as follows.
                 
 ## Competitions 
 Since 2020, we have held two AI competitions using the HAI dataset. The competition website shares the competition baseline codes and the winner's codes.
- * HAICon 2020 (HAI 20.07): https://dacon.io/competitions/official/235624/overview/description
- * HAICon 2021 (HAI 21.03): https://dacon.io/en/competitions/official/235757/overview/description
+ * HAICon 2020 (HAI 21.03): https://dacon.io/competitions/official/235624/overview/description
+ * HAICon 2021 (HAI 22.04): https://dacon.io/en/competitions/official/235757/overview/description
         
                 
 ## Contributors
@@ -334,7 +334,7 @@ If you publish your works that use HAI data sets, HAICon competitions, and eTaPR
 }
 ```
                 
-#### HAI 20.03
+#### HAI 20.07
 ```bibtex
 @inbook{10.5555/3485754.3485755,
     author = {Shin, Hyeok-Ki and Lee, Woomyo and Yun, Jeong-Han and Kim, HyoungChun},
