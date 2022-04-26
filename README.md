@@ -64,7 +64,7 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
     </thead>
     <tbody>
           <tr bgcolor='#dddddd'>
-            <td rowspan=7 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-22.03"> HAI 22.04<a></b> </td>
+            <td rowspan=7 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-22.04"> HAI 22.04<a></b> </td>
             <td rowspan=7> 86 points/sec</td>
             <td> train1.csv</td>
              <td align=right>26 hours</td>
