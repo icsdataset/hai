@@ -312,7 +312,15 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike License (
 
 ## Citation
 If you publish your works that use HAI data sets, HAICon competitions, and eTaPR, please cite the sources below:             
-
+#### HAI 22.04
+```bibtex
+  @misc{github,
+    author={Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun and Byung-Gi Min},
+    title={HAI 22.04},
+    year={2022},
+    url={https://github.com/icsdataset/hai},
+ }
+```
 #### HAI 21.03, HAICon 2020
 ```bibtex
 @inproceedings{10.1145/3474718.3474719,
