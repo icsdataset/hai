@@ -358,11 +358,18 @@ If you publish your works that use HAI data sets, HAICon competitions, and eTaPR
 #### eTaPR
 ```bibtex
 @inproceedings{ 
-    author = {Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim, HyoungChun Kim},
-    title = {Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detection?},
+    10.1145/3477314.3507024,
+    author = {Hwang, Won-Seok and Yun, Jeong-Han and Kim, Jonguk and Min, Byung Gil},
+    title = {"Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detections?"},
     year = {2022},
+    isbn = {9781450387132},
     publisher = {Association for Computing Machinery},
     address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3477314.3507024},
+    doi = {10.1145/3477314.3507024},
+    booktitle = {Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing},
+    pages = {403–412},
+    numpages = {10},
     location = {Virtual Event},
     series = {SAC '22}
 }
