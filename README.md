@@ -43,8 +43,11 @@ The dSPACE's SCALEXIO system is used for the HIL simulations and is interconnect
 
 
 ## HAI Dataset
-Two major versions of HAI datasets have been released thus far. Each dataset consists of several CSV files, and each file satisfies time continuity. The quantitative summary of each version are as follows:
-> **Note:** The **version numbering** follows a **date-based scheme**, where the version number indicates the released date of the HAI dataset.  HAI 20.07 is the bug-fixed version of HAI v1.0 released in February 2020.
+Four versions of HAI dataset have been released thus far. Each dataset consists of several CSV files, and each file satisfies time continuity. The quantitative summary of each version are as follows:
+
+> **HAIEnd** is a dataset that collects tag values for the internal logic of the boiler DCS, and is collected simultaneously during the same experiment with the same version of HAI dataset.
+
+> The **version numbering** follows a **date-based scheme**, where the version number indicates the released date of the HAI dataset.  HAI 20.07 is the bug-fixed version of HAI v1.0 released in February 2020.
 <table align=center >
     <thead  align=center>
         <tr bgcolor='#bbbbbb'>
@@ -291,25 +294,25 @@ Here are some projects and experiments that are using or featuring the dataset i
 
 The related projects so far are as follows.
 ### Year 2023
-01. [A Comparative Study of Time Series Anomaly Detection Models for Industrial Control Systems][AD_23_01]
+01. [A comparative study of time series anomaly detection models for industrial control systems][AD_23_01]
 02. [CPS-GUARD: Intrusion detection for cyber-physical systems and IoT devices using outlier-aware deep autoencoders][AD_23_02]
-03. [Detection of Cyberattacks and Anomalies in Cyber-Physical Systems: Approaches, Data Sources, Evaluation][AD_23_03]
+03. [Detection of cyberattacks and anomalies in cyber-physical systems: approaches, data sources, evaluation][AD_23_03]
 04. [Machine learning in industrial control system (ICS) security: current landscape, opportunities and challenges][AD_23_04]
 05. [Monitoring industrial control systems via spatio-temporal graph neural networks][AD_23_05]  
-06. [Time-series Anomaly Detection via Contextual Discriminative Contrastive Learning][AD_23_06] 
+06. [Time-series anomaly detection via contextual discriminative contrastive learning][AD_23_06] 
                 
 ### Year 2022 
-01. [A Hybrid Algorithm Incorporating Vector Quantization and One-Class Support Vector Machine for industrial Anomaly Detection][AD_22_01]
+01. [A hybrid algorithm incorporating vector quantization and one-class support vector machine for industrial anomaly detection][AD_22_01]
 02. [Anomalous behaviour detection for cyber defence in modern industrial control systems][AD_22_02]
 03. [Benchmarking machine learning based detection of cyber attacks for critical infrastructure][AD_22_03]
-04. [Can Industrial Intrusion Detection Be SIMPLE?][AD_22_04]
+04. [Can industrial intrusion detection be SIMPLE?][AD_22_04]
 05. [Deep Analysis Net with Causal Embedding for Coal-fired power plant Fault Detection and Diagnosis (DANCE4CFDD)][AD_22_05] 
-06. [Frequency-Based Representation of Massive Alerts and Combination of Indicators by Heterogeneous Intrusion Detection Systems for Anomaly Detection][AD_22_06]
-07. [Improving Method of Anomaly Detection Performance for Industrial IoT Environment][AD_22_07]
+06. [Frequency-based representation of massive alerts and combination of indicators by heterogeneous intrusion detection systems for anomaly detection][AD_22_06]
+07. [Improving method of anomaly detection performance for industrial IoT environment][AD_22_07]
 08. [IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems][AD_22_08]
-09. [Learning Sparse Latent Graph Representations for Anomaly Detection in Multivariate Time Series][AD_22_09]
+09. [Learning sparse latent graph representations for anomaly detection in multivariate time series][AD_22_09]
 10. [Mad: Self-supervised masked anomaly detection task for multivariate time series][AD_22_10]
-11. [Multivariate Time Series Anomaly Detection with Few Positive Samples][AD_22_11]
+11. [Multivariate time series anomaly detection with few positive samples][AD_22_11]
 12. [Residual size is not enough for anomaly detection: improving detection performance using residual similarity in multivariate time series][AD_22_12]
 13. [Towards building intrusion detection systems for multivariate time-series data][AD_22_13]
 14. [Variational restricted Boltzmann machines to automated anomaly detection][AD_22_14]
@@ -389,7 +392,7 @@ Since 2020, we have held two AI competitions using the HAI dataset. The competit
                 
 The Affiliated Institute of ETRI, Daejeon, South Korea.
                 
-                
+               
 [shk_gs]: https://scholar.google.com/citations?hl=ko&user=oKTla4QAAAAJ 
 [lwm_acm]: https://dl.acm.org/profile/99659273937
 [cso_gs]: https://scholar.google.com/citations?hl=ko&user=BW1uvqIAAAAJ
@@ -403,10 +406,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike License (
 
 ## Citation
 If you publish your works that use HAI data sets, HAICon competitions, and eTaPR, please cite the sources below:             
-### HAI 22.04, HAI 23.05, HAIEnd 23.5
+### HAI 22.04, HAI 23.05, HAIEnd 23.05
 ```bibtex
   @misc{github,
-    author={Shin,  Hyeok-Ki; Lee, Woomyo; Choi, Seungoh; Yun, Jeong-Han; and Min, Byung-Gi},
+    author={Shin, Hyeok-Ki; Lee, Woomyo; Choi, Seungoh; Yun, Jeong-Han; and Min, Byung-Gi},
     title={HAI security datasets},
     year={2023},
     url={https://github.com/icsdataset/hai},
@@ -415,7 +418,7 @@ If you publish your works that use HAI data sets, HAICon competitions, and eTaPR
 ### HAI 21.03, HAICon 2020, HAICon 2021
 ```bibtex
     @inproceedings{10.1145/3474718.3474719,
-    author = {Shin,  Hyeok-Ki; Lee, Woomyo; Yun, Jeong-Han; and Min, Byung-Gi},
+    author = {Shin,  Hyeok-Ki and Lee, Woomyo and Yun, Jeong-Han and Min, Byung-Gi},
     title = {Two ICS Security Datasets and Anomaly Detection Contest on the HIL-Based Augmented ICS Testbed},
     year = {2021},
     isbn = {9781450390651},
@@ -436,7 +439,7 @@ If you publish your works that use HAI data sets, HAICon competitions, and eTaPR
 ### HAI 20.07
 ```bibtex
 @inbook{10.5555/3485754.3485755,
-    author = {Shin, Hyeok-Ki; Lee, Woomyo; Yun, Jeong-Han; and Kim, HyoungChun},
+    author = {Shin, Hyeok-Ki and Lee, Woomyo and Yun, Jeong-Han and Kim, HyoungChun},
     title = {HAI 1.0: HIL-Based Augmented ICS Security Dataset},
     year = {2020},
     publisher = {USENIX Association},
@@ -452,7 +455,7 @@ If you publish your works that use HAI data sets, HAICon competitions, and eTaPR
 ```bibtex
 @inproceedings{ 
     10.1145/3477314.3507024,
-    author = {Hwang, Won-Seok; Yun, Jeong-Han; Kim, Jonguk; and Min, Byung Gil},
+    author = {Hwang, Won-Seok and Yun, Jeong-Han and Kim, Jonguk and Min, Byung Gil},
     title = {"Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detections?"},
     year = {2022},
     isbn = {9781450387132},
