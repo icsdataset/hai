@@ -29,7 +29,7 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 
 - HAI 22.04 contained more sophisticated attacks that are significantly more difficult to detect than those in the previous versions. Comparing only the baseline TaPRs of HAICon 2020 and HAICon 2021, detection difficulty in HAI 22.04 is approximately four times higher than HAI 21.03.
 
-- In 2022, HAI/HAIEnd 23.05 were developed for ICS endpoint threat detection. The HAIEnd dataset includes more points about the internal control logic of boiler's DCS. In addition, we provide Python NetworkX graph data that helps in analyzing and optimizing anomaly detection performance. Click [here](https://github.com/icsdataset/hai/tree/master/analysis) to find out more about the NetworkX graphs.
+- In 2022, HAI/HAIEnd 23.05 were developed for ICS endpoint threat detection. The HAIEnd dataset includes more points about the internal control logic of boiler's DCS. In addition, we provide Python NetworkX graph data that helps in analyzing and optimizing anomaly detection performance. Click [here](https://github.com/icsdataset/hai/tree/master/graph) to find out more about the NetworkX graphs.
 
 ## HAI Testbed
 The testbed consists of four different processes: boiler process, turbine process, water treatment process and HIL simulation:
