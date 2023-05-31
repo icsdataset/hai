@@ -22,7 +22,7 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 
 - In 2017, three laboratory-scale CPS testbeds were initially launched, namely GE’s turbine testbed, Emerson’s boiler testbed, and FESTO’s modular production system (MPS) water-treatment testbed. These testbeds are related to relatively simple processes, and were operated independently of each other.
 
-- In 2018, a complex process system was built to combine the three systems using a HIL simulator, where generation of thermal power and pumped-storage hydropower was simulated. This ensured that the variables were highly coupled and correlated for a richer dataset. In addition, an open platform communications united architecture (OPC-UA) gateway was installed to facilitate data collection from heterogeneous devices.
+- In 2018, a complex process system was built to combine the three systems using a HIL simulator, where the generation of thermal power and pumped-storage hydropower was simulated. This ensured that the variables were highly coupled and correlated for a richer dataset. In addition, an open platform communications united architecture (OPC-UA) gateway was installed to facilitate data collection from heterogeneous devices.
 
 - The first version of HAI dataset, HAI 1.0,  was made available on GitHub and Kaggle in February 2020. This dataset included ICS operational data from normal and anomalous situations for 38 attacks. Subsequently, a debugged version of HAI 1.0, namely HAI 20.07, was released for the HAICon 2020 competition in August 2020.
 
@@ -207,7 +207,7 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
                 
 ### Data fields 
                 
-The time-series data in each CSV file satisfies time continuity. The first column represents the observed time in the “yyyy-MM-dd hh:mm:ss” format, while the rest of the columns provide the recorded SCADA data points. The last four columns provide data labels for whether an attack occurred or not. Out of these four columns, is applicable to all the process and the other three columns are applicable to the corresponding control processes.
+The time-series data in each CSV file satisfies time continuity. The first column represents the observed time in the “yyyy-MM-dd hh:mm:ss” format, while the rest of the columns provide the recorded SCADA data points. The last four columns provide data labels for whether an attack occurred. Out of these four columns, is applicable to all the process and the other three columns are applicable to the corresponding control processes.
                 
 > Refer to the **latest technical manual** for the details for each column.
                 
@@ -235,7 +235,7 @@ To unzip multiple gzip files, you can use:
 $ gunzip *.gz
 ```
 ## Performance Metric
-Use of [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) metric is strongly recommended to evaluate your anomaly detection model, which provides fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
+The use of [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) metric is strongly recommended to evaluate your anomaly detection model, which provides fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
 
 ## Projects using the dataset
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-Share]%20)
