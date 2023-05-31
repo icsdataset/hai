@@ -1,0 +1,2 @@
+haiend-23.05/**/* filter=lfs diff=lfs merge=lfs -text
+hai-23.05/**/* filter=lfs diff=lfs merge=lfs -text
