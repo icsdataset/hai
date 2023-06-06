@@ -4,6 +4,9 @@
 The HAI dataset was collected from a realistic industrial control system (ICS) testbed augmented with a Hardware-In-the-Loop (HIL) simulator that emulates steam-turbine power generation and pumped-storage hydropower generation. 
 
 Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical_details.pdf) to find out more about the HAI dataset.
+
+> You can also download the HAI dataset from [Kaggle](https://www.kaggle.com/datasets/icsdataset/hai-security-dataset).
+
 > Please e-mail [us](mailto:haidataset@gmail.com?subject=[GitHub-HAI]%20) if you have any questions about the dataset.
 
 ## Contents
